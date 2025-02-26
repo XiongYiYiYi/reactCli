@@ -5,10 +5,6 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-  const unusedVar = "这是一个未使用的变量";
-  if(unusedVar){
-    console.log(unusedVar);
-  }
   return (
     <>
       <div>
