@@ -3,6 +3,8 @@ import SimpleNavbar from '../components/SimpleNavbar';
 import SimpleFooter from '../components/SimpleFooter';
 
 const About: React.FC = () => {
+  console.log('API URL:', import.meta.env.VITE_API_URL);
+  console.log('是否调试模式:', import.meta.env.VITE_DEBUG);
   return (
     <div className="app-container">
       <SimpleNavbar />
