@@ -1,5 +1,5 @@
 import React from "react";
-import SimpleNavbar from "../components/SimpleNavbar";
+import SimpleNavbar from "@/components/SimpleNavbar";
 import SimpleFooter from "../components/SimpleFooter";
 import useStore from "../stores/useStore";
 
